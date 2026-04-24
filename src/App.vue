@@ -4,5 +4,5 @@ import AtendimentosList from './views/AtendimentosList.vue'
 </script>
 
 <template>
-  <AtendimentosList />
+  <router-view />
 </template>

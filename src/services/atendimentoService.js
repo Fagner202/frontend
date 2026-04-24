@@ -7,7 +7,7 @@ getAtendimentos().then((response) => {
 });
 
 export const getAtendimentoById = (id) =>
-    api.get(`/atendimentos/${id}`);
+  api.get(`/atendimentos/${id}`);
 
 export const createAtendimento = (data) =>
-    api.post("/atendimentos", data);
+  api.post("/atendimentos", data);
