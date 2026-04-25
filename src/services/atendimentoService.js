@@ -2,9 +2,9 @@ import { api } from "./api";
 
 export const getAtendimentos = () => api.get("/atendimentos");
 
-// getAtendimentos().then((response) => {
-//   console.log(response);
-// });
+getAtendimentos().then((response) => {
+  console.log(response);
+});
 
 export const getAtendimentoById = (id) =>
   api.get(`/atendimentos/${id}`);
