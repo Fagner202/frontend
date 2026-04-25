@@ -6,6 +6,8 @@ getAtendimentos().then((response) => {
   console.log(response);
 });
 
+console.log("API URL:", import.meta.env.VITE_API_URL);
+
 export const getAtendimentoById = (id) =>
   api.get(`/atendimentos/${id}`);
 
