@@ -29,7 +29,7 @@ const route = useRoute();
 const atendimento = ref(null);
 
 const baixarASO = (id) => {
-  window.open(`http://localhost:3000/atendimentos/${id}/aso`);
+  window.open(`${import.meta.env.VITE_API_URL}/atendimentos/${id}/aso`);
 };
 
 const formatarData = (data) =>
