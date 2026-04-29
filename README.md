@@ -1,5 +1,33 @@
-# Vue 3 + Vite
+# 💼 Portfólio — Fagner
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Aplicação web desenvolvida para apresentar meus projetos, habilidades e experiências como desenvolvedor front-end.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+🔗 **Acesse o projeto:**  
+<https://portifolio-tau-ten-91.vercel.app/>
+
+---
+
+## 🚀 Tecnologias utilizadas
+
+- React 19
+- Vite
+- JavaScript (ESModules)
+- React Icons
+- ESLint
+
+---
+
+## 📂 Estrutura do projeto
+
+```bash
+portfolio-fagner/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── package.json
+└── vite.config.js
